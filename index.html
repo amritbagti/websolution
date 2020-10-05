@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<title>web solutions</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<header class="header fixed-top" id="header">
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  <div class="container">
+		  	<a class="navbar-brand" href="#">bagtiinfotech</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#services">services</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">projects</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">About</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">contact</a>
+			      </li>
+			    </ul>
+			    
+			  </div>
+		  </div>
+		</nav>
+	</header>
+	<!----home section---->
+	<section class="home">
+		<div class="container home-elements">
+			<div class="row">
+				<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 p-lg-0 order-2 order-lg-1 " data-aos="fade-up" data-aos-delay="200">
+					<h1 class="home-text">Want to bring Your Business Online?</h1>
+					<h2 class="home-text" style="font-size: 25px;color:#D1CACA  ;">we are always dedicated to our work.Quality is our first priority.  </h2>
+					<div class="d-lg-flex justify-content-sm-center">
+						<a href="#services" class="btn mr-4">Get started</a>
+						<a href="#contact" class="btn" style="background: none!important;">contact us</a>
+					</div>
+				</div>
+				<div class="col-lg-6 d-flex flex-md-column order-lg-2 align-self-center  home-image">
+					<img src="images/home-img.png" alt="home-image">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!----services section---->
+	<section class="services" id="services">
+		<div class="section-heading"><h1>services</h1></div>
+		<div class="container justify-content-center">
+			<p class="service-details">We're brand strategy and digital design agency, building brands that matter in culture with more than ten years of knowledge e and in to do expertise and digital design agency or brands.</p>
+			<div class="card-deck p-4">
+			  <div class="card ">
+			    <div class="icons">
+			    	<span class="iconify" data-icon="fa-solid:code" data-inline="false" style="color: #E41C00; font-size: 50px;text-align: center!important;"></span>
+			    </div>
+			    <div class="card-body">
+			      <h5 class="card-title">web development</h5>
+			      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			      
+			    </div>
+			  </div>
+			  <div class="card">
+			    <div class="icons"><span class="iconify" data-icon="mdi:android-studio" data-inline="false" style="color: #E41C00;font-size: 50px;" data-width="50px" data-height="50px"></span></div>
+			    <div class="card-body">
+			      <h5 class="card-title">app development</h5>
+			      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+			      
+			    </div>
+			  </div>
+			  <div class="card">
+			    <div class="icons">
+			    	<span class="iconify" data-icon="fa-solid:poll" data-inline="false" style="color: #E41C00;" data-width="50" data-height="50"></span>
+			    </div>
+			    <div class="card-body">
+			      <h5 class="card-title">Digital marketing</h5>
+			      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			      
+			    </div>
+			  </div>
+			  <div class="card">
+			    <div class="icons">
+			    	<span class="iconify" data-icon="fa-solid:draw-polygon" data-inline="false" style="color: #E41C00;" data-width="50"></span>
+			    </div>
+			    <div class="card-body">
+			      <h5 class="card-title">Logo Designing</h5>
+			      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			      
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</section>
+ 	<div class="preloader"></div>
+ 	<script>
+        window.addEventListener('scroll', function () {
+            let header = document.querySelector('header');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+        })
+    </script>
+    <!--iconify.js-->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>	
+</body>
+</html>
